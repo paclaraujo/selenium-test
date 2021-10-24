@@ -1,0 +1,148 @@
+{
+  "id": "89c389c5-cdf2-4db3-9067-68f258fb8e2c",
+  "version": "2.0",
+  "name": "selenium",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "5ae93ee3-1eea-4d5e-a89a-59fbf7d836ed",
+    "name": "validate selenium ide extension version",
+    "commands": [{
+      "id": "2b3be451-397e-44ef-878a-49e9a7fe0013",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e61afd2-59b1-4a89-8c75-c289c1ab73f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "751x699",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6731c20c-8f60-4ec9-8863-27c44ac8dcbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chrome"
+    }, {
+      "id": "b44c675b-b016-4862-be23-dca6dd5fc615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//li[4]/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'chrome web store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "811d6d1e-319b-4a5c-8523-b6252682719a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Chrome Web Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33adc9c9-1e50-4e34-8d79-f4509fadf828",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LdSiCc",
+      "targets": [
+        ["css=.LdSiCc", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agora não')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22e10890-7a5a-4b6e-9079-c20eafea1025",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g-na-ib-k",
+      "targets": [
+        ["css=.g-na-ib-k", "css:finder"],
+        ["xpath=//nav/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "986a3d65-073e-46ae-abf8-0bd523220eb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-input",
+      "targets": [
+        ["id=searchbox-input", "id"],
+        ["css=#searchbox-input", "css:finder"],
+        ["xpath=//input[@id='searchbox-input']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d413c33-2666-4d14-bb51-3e6fb272ae34",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchbox-input",
+      "targets": [
+        ["id=searchbox-input", "id"],
+        ["css=#searchbox-input", "css:finder"],
+        ["xpath=//input[@id='searchbox-input']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "selenium ide"
+    }, {
+      "id": "96751865-fd65-4e1e-9373-c0013d202445",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchbox-input",
+      "targets": [
+        ["id=searchbox-input", "id"],
+        ["css=#searchbox-input", "css:finder"],
+        ["xpath=//input[@id='searchbox-input']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8811d45d-7ed3-44da-ac57-cdcee64201f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-d-na:nth-child(1) .a-na-d-w",
+      "targets": [
+        ["css=.a-d-na:nth-child(1) .a-na-d-w", "css:finder"],
+        ["xpath=//a/div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d5e6fba-9c83-40b1-ac24-a41df652ab5b",
+      "comment": "selenium ide extension version",
+      "command": "assertText",
+      "target": "css=.h-C-b-p-D-md",
+      "targets": [
+        ["css=.h-C-b-p-D-md", "css:finder"],
+        ["xpath=//div[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'3.17.1')]", "xpath:innerText"]
+      ],
+      "value": "3.17.1"
+    }]
+  }],
+  "suites": [{
+    "id": "db964968-e59c-47c1-ad32-2f5912e5b9c1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ae93ee3-1eea-4d5e-a89a-59fbf7d836ed"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
